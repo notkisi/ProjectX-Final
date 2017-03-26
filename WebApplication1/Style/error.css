@@ -1,0 +1,108 @@
+﻿body {
+    background-color: #465568 !important;
+    background-image: url('../../dist/img/bg_1.jpg');
+    background-size: 100%;
+    padding: 0;
+    margin: 0;
+}
+body {
+    color: #333;
+    padding: 0!important;
+    margin: 0!important;
+    direction: "ltr";
+    font-size: 14px;
+}
+.page-lock {
+    margin: 90px auto 30px;
+    width: 450px;
+}
+.page-lock .page-logo {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.page-lock .page-body {
+    width: 100%;
+    margin-top: 50px;
+    background-color: #3a4554;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border-radius: 7px;
+}
+.lock-head {
+    display: block;
+    background-color: #323d4b;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #6C7E92;
+    -webkit-border-radius: 7px 7px 0 0;
+    -moz-border-radius: 7px 7px 0 0;
+    -ms-border-radius: 7px 7px 0 0;
+    -o-border-radius: 7px 7px 0 0;
+    border-radius: 7px 7px 0 0;
+}
+.lock-body {
+    display: block;
+    margin: 35px;
+    overflow: hidden;
+}
+.lock-bottom {
+    display: block;
+    background-color: #323d4b;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-border-radius: 0 0 7px 7px;
+    -moz-border-radius: 0 0 7px 7px;
+    -ms-border-radius: 0 0 7px 7px;
+    -o-border-radius: 0 0 7px 7px;
+    border-radius: 0 0 7px 7px;
+}
+.lock-form .form-group .form-control {
+    background-color: #303a48;
+    border: none;
+    width: 100%;
+    height: 40px;
+    color: #697687;
+}
+.lock-form .form-group .input-group-addon {
+    background-color: #303a48;
+    border: none;   
+    height: 40px;
+    color: #697687;
+}
+.lock-form .form-actions .btn {
+    width: 100%;
+    font-weight: 600;
+    padding: 10px;
+}
+.btn.red:not(.btn-outline) {
+    color: #fff;
+    background-color: #e7505a;
+    border-color: #e7505a;
+}
+.btn {
+    outline: 0!important;
+}
+.uppercase {
+    text-transform: uppercase!important;
+}
+.btn, .form-control {
+    box-shadow: none!important;
+}
+.lock-form .form-actions, .lock-form .form-group {
+    margin-top: 20px;
+}
+.page-footer-custom {
+    text-align: center;
+    padding-top: 40px;
+    color: #5f6e83;
+}    
+.form-info{
+    color:#E7505A;
+    padding-top:10px;
+}

@@ -1,0 +1,35 @@
+﻿html{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.btnTransparent{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    color:#F2F2F2;
+    margin-top:6px;
+}
+.btnDelete{
+    
+    border:1px solid;
+    border-radius:3px;
+    cursor:pointer;
+    overflow: hidden;
+    color:red;
+    margin-top:6px;
+
+}
+body{
+    background-color:#F2F2F2;
+    font-family:'Titillium Web','Times New Roman';
+    color:black;
+}
+@font-face {
+        font-family: 'Titillium Web';
+        font-style: normal;
+        font-weight: 400;
+        src: url(TitilliumWeb-Regular.ttf);
+    }

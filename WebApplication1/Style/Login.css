@@ -1,0 +1,24 @@
+﻿.jumbotron{
+     padding-bottom:10px;
+     margin-top:10px;
+}
+.container{
+   width:100%;
+}
+
+.panel-default{
+    margin:0px;
+
+}
+.textbox{
+    width:100%;
+    border-radius:5px;
+    border:1px solid gray;
+}
+.textbox:focus {
+    border-color: black;
+    padding: 4px;
+    border-radius: 5px;
+    -webkit-box-shadow: none;
+    outline: -webkit-focus-ring-color auto 0px;
+}
