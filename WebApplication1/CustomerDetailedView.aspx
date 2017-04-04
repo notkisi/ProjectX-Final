@@ -67,7 +67,7 @@
                 <br /><br />
                 <asp:Image ID="Image1" runat="server" class="img-rounded img-responsive no-print" Width="55%"  /><br />
             </p>
-            <asp:GridView ID="GridView3" GridLines="None" runat="server" CssClass="grid" HorizontalAlign="Center" AutoGenerateColumns="False" DataKeyNames="AddressLabelId" DataSourceID="SqlDataSource1">
+            <asp:GridView ID="GridView3" GridLines="None" runat="server" CssClass="grid" HorizontalAlign="Center" AutoGenerateColumns="False" DataKeyNames="AddressLabelId" DataSourceID="SqlDataSource1" Font-Size="Small">
                 <Columns>
                     <asp:BoundField DataField="Address" HeaderText="Adresa" SortExpression="Address" />
                     <asp:BoundField DataField="ZipCode" HeaderText="Zip" SortExpression="ZipCode" />
@@ -83,7 +83,7 @@ WHERE ([CustomerId] = @CustomerId)">
                 </SelectParameters>
             </asp:SqlDataSource>
             <p>
-                <asp:GridView ID="GridView2" GridLines="None" runat="server" HorizontalAlign="Center" CssClass="grid" AutoGenerateColumns="False" DataKeyNames="EmailLabelId" DataSourceID="SqlDataSource2">
+                <asp:GridView ID="GridView2" GridLines="None" runat="server" HorizontalAlign="Center" CssClass="grid" AutoGenerateColumns="False" DataKeyNames="EmailLabelId" DataSourceID="SqlDataSource2" Font-Size="Small">
                     <Columns>
                         <asp:BoundField DataField="Email" HeaderText="Email" SortExpression="Email" />
                         <asp:BoundField DataField="EmailLabelName" HeaderText="Tip" SortExpression="EmailLabelName" />
@@ -98,7 +98,7 @@ WHERE ([CustomerId] = @CustomerId)">
                 </SelectParameters>
             </asp:SqlDataSource>
             <p>
-                <asp:GridView ID="GridView4" GridLines="None" CssClass="grid" runat="server" HorizontalAlign="Center" AutoGenerateColumns="False" DataKeyNames="PhoneLabelId" DataSourceID="SqlDataSource3">
+                <asp:GridView ID="GridView4" GridLines="None" CssClass="grid" runat="server" HorizontalAlign="Center" AutoGenerateColumns="False" DataKeyNames="PhoneLabelId" DataSourceID="SqlDataSource3" Font-Size="Small">
                     <Columns>
                         <asp:BoundField DataField="PhoneNumber" HeaderText="Broj Telefona" SortExpression="PhoneNumber" />
                         <asp:BoundField DataField="Local" HeaderText="Lokal" SortExpression="Local" />
@@ -183,7 +183,7 @@ WHERE ([CustomerId] = @CustomerId)">
                 <p style="text-align:center;">
                     &nbsp;
                     <br />
-            <button id="btnPrint" class="buttoncustomer btn-lg no-print" onclick="PrintCustomer()"> Štampa </button>
+            <button id="btnPrint" class="buttoncustomer btn-lg no-print" onclick="PrintCustomer()"> Štampa</button>
                 </p>
             </div>
         </div>
