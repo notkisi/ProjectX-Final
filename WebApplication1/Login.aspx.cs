@@ -17,7 +17,6 @@ namespace ProjectX.Web
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
         }
 
         protected void submitEventMethod(object sender, EventArgs e)

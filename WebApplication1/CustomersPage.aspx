@@ -14,6 +14,10 @@
     <link rel="stylesheet" href="Style/SharedStyle.css" type="text/css" />
     <link rel="stylesheet" href="responsive-tables.css" />
     <script src="responsive-tables.js"></script>
+
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/bootstrapjs.js"></script>
+    <script src="scripts/jquery-2.1.1.min.js"></script>
     <!--End stylesheets-->
 
 </head>
@@ -85,8 +89,8 @@
                             <asp:RegularExpressionValidator ID="revParentName" runat="server" ControlToValidate="tbParentName" Display="Dynamic" ValidationExpression="^([\sA-Za-z]+)$" ErrorMessage="Dozvoljena samo slova!"></asp:RegularExpressionValidator>
                         </p>
                         <p>
-                            <strong>Rodjendan:</strong>
-                            <asp:TextBox ID="tbBirthday" runat="server" CssClass="textbox" Style="padding-left: 10px" placeholder="Rodjendan"></asp:TextBox>
+                            <strong>Datum rodjenja:</strong>
+                            <asp:TextBox ID="tbBirthday" runat="server" CssClass="textbox" Style="padding-left: 10px" placeholder="Datum rodjenja"></asp:TextBox>
                             <asp:RequiredFieldValidator ID="rfvBirthday" runat="server" ControlToValidate="tbBirthday" Display="Dynamic" ErrorMessage="Obavezan datum rodjenja" ForeColor="Red"></asp:RequiredFieldValidator>
                             <asp:CompareValidator ID="revBirthday" runat="server" ControlToValidate="tbBirthday" Operator="DataTypeCheck" Type="Date" Display="Dynamic" ErrorMessage="Datum mora biti u formatu mm/dd/yyyy"></asp:CompareValidator>
                         </p>
