@@ -118,7 +118,7 @@
                             </tr>
                             <tr>
                                 <td class="textboxmail">
-                                    <asp:TextBox ID="tbEmail" runat="server" Style="padding-left: 10px" CssClass="dynamicTB" placeholder="e-mail"></asp:TextBox></td>
+                                    <asp:TextBox ID="tbEmail" runat="server" Style="padding-left: 10px" CssClass="dynamicTB" placeholder="Email"></asp:TextBox></td>
                                 <td class="droplist">
                                     <asp:DropDownList ID="ddEmailLabel" runat="server" DataSourceID="SqlDataSource1" DataTextField="EmailLabelName" DataValueField="EmailLabelId" CssClass="dynamicDD"></asp:DropDownList>
                                     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:MyDBConnection %>" SelectCommand="SELECT * FROM [EmailLabels]"></asp:SqlDataSource>
@@ -146,11 +146,11 @@
                             </tr>
                             <tr>
                                 <td class="textboxadresa">
-                                    <asp:TextBox ID="tbAddress" runat="server" Style="padding-left: 10px" CssClass="dynamicTB" placeholder="address"></asp:TextBox></td>
+                                    <asp:TextBox ID="tbAddress" runat="server" Style="padding-left: 10px" CssClass="dynamicTB" placeholder="Adresa"></asp:TextBox></td>
                                 <td class="textboxzip">
-                                    <asp:TextBox ID="tbZipCode" runat="server" Style="padding-left: 10px" CssClass="dynamicTB" placeholder="zip code"></asp:TextBox></td>
+                                    <asp:TextBox ID="tbZipCode" runat="server" Style="padding-left: 10px" CssClass="dynamicTB" placeholder="Postanski broj"></asp:TextBox></td>
                                 <td class="textboxcity">
-                                    <asp:TextBox ID="tbCity" runat="server" Style="padding-left: 10px" CssClass="dynamicTB" placeholder="city"></asp:TextBox></td>
+                                    <asp:TextBox ID="tbCity" runat="server" Style="padding-left: 10px" CssClass="dynamicTB" placeholder="Grad"></asp:TextBox></td>
                                 <td class="droplist">
                                     <asp:DropDownList ID="ddAddressLabel" runat="server" DataSourceID="SqlDataSource2" DataTextField="AddressLabelName" DataValueField="AddressLabelId" CssClass="dynamicDD"></asp:DropDownList>
                                     <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:MyDBConnection %>" SelectCommand="SELECT * FROM [AddressLabels]"></asp:SqlDataSource>
@@ -179,9 +179,9 @@
                             </tr>
                             <tr>
                                 <td class="textboxphone">
-                                    <asp:TextBox ID="tbPhone" runat="server" Style="padding-left: 10px" CssClass="dynamicTB" placeholder="broj telefona"></asp:TextBox></td>
+                                    <asp:TextBox ID="tbPhone" runat="server" Style="padding-left: 10px" CssClass="dynamicTB" placeholder="Telefon"></asp:TextBox></td>
                                 <td class="textboxlokal">
-                                    <asp:TextBox ID="tbLocal" runat="server" Style="padding-left: 10px" CssClass="dynamicTB" placeholder="lokal"></asp:TextBox></td>
+                                    <asp:TextBox ID="tbLocal" runat="server" Style="padding-left: 10px" CssClass="dynamicTB" placeholder="Lokal"></asp:TextBox></td>
                                 <td class="droplist">
                                     <asp:DropDownList ID="ddPhoneLabel" runat="server" DataSourceID="SqlDataSource3" DataTextField="PhoneLabelName" DataValueField="PhoneLabelId" CssClass="dynamicDD"></asp:DropDownList>
                                     <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:MyDBConnection %>" SelectCommand="SELECT * FROM [PhoneLabels]"></asp:SqlDataSource>

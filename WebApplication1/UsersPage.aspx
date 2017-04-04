@@ -44,12 +44,12 @@
             <div class="col-sm-3 col-md-4 col-lg-3"><br />
                 <p>
                     <!-- Dropdown list of users -->
-                    Users: 
+                    Korisnici: 
                 <asp:DropDownList ID="UsersDropDown"
                     runat="server" CssClass="dropdown"
                     AutoPostBack="True"
                     OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
-                    <asp:ListItem Text="Unos novog korisnika" Value="0" />
+                    <asp:ListItem Text="--Unos novog korisnika--" Value="0" />
                 </asp:DropDownList>
                 </p>
                 <p>
@@ -67,14 +67,14 @@
                     <asp:RegularExpressionValidator ID="revLastName" runat="server" ControlToValidate="LastNameTextBox" ErrorMessage="Dozvoljena samo slova!" ValidationExpression="^([\sA-Za-z]+)$" Display="Dynamic"></asp:RegularExpressionValidator>
                 </p>
                 <p>
-                    Username:
+                    Korisnicko ime:
                             <asp:TextBox ID="UsernameTextBox" runat="server"
                                 CssClass="textbox" Style="padding-left: 5px;"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="rfvUsername" runat="server" ControlToValidate="UsernameTextBox" Font-Bold="true" ForeColor="Red" ErrorMessage="Obavezan Username!" Display="Dynamic"></asp:RequiredFieldValidator>
                     <asp:CustomValidator ID="cvUsername" runat="server" ControlToValidate="UsernameTextBox" OnServerValidate="ValidationOfUser" ErrorMessage="Korisnik postoji!" Display="Dynamic"></asp:CustomValidator>
                 </p>
                 <p>
-                    Password:
+                    Lozinka:
                             <asp:TextBox ID="PasswordTextBox" runat="server" CssClass="textbox"
                                 TextMode="Password" Style="padding-left: 5px;"
                                 title="Polje ostaviti prazno u slucaju da ne zelite da resetujete password"></asp:TextBox>
@@ -94,10 +94,10 @@
                 </script>
                 <!-- end of script for tooltip -->
                 <!-- Dropdown list of user Roles -->
-                Role:
+                Pravo pristupa:
             <asp:DropDownList ID="UserRolesDropDown"
                 runat="server" CssClass="dropdown">
-                <asp:ListItem Text="Izaberite rolu" Value="0" />
+                <asp:ListItem Text="--Izaberite pravo pristupa--" Value="0" />
             </asp:DropDownList>
                 <br />
                 <asp:RequiredFieldValidator ID="rfvRole" runat="server" ControlToValidate="UserRolesDropDown" Font-Bold="true" ForeColor="Red" ErrorMessage="Morate izabrati rolu!" InitialValue="0"></asp:RequiredFieldValidator>

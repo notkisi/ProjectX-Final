@@ -41,6 +41,7 @@
     border-radius: 5px;
     border: 1px solid gray;
     padding: 3px;
+    overflow: hidden;
 }
 
 .dropdown:focus {
@@ -49,12 +50,14 @@
     border-radius: 5px;
     -webkit-box-shadow: none;
     outline: -webkit-focus-ring-color auto 0px;
+    overflow: hidden;
 }
 .dropdown:hover {
     border-color: red;
     border-radius: 5px;
     -webkit-box-shadow: none;
     outline: -webkit-focus-ring-color auto 0px;
+    overflow: hidden;
 }
 .btn{
     float:right;

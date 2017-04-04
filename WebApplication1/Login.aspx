@@ -50,15 +50,15 @@
                <asp:UpdatePanel ID="UpdatePanel1" runat="server">
                    <ContentTemplate>
                        <fieldset>
-              <asp:TextBox ID="usernameTextBox" CssClass="form-control" placeholder="Username"
+              <asp:TextBox ID="usernameTextBox" CssClass="form-control" placeholder="Korisnicko ime"
                            Style="padding-left: 10px" runat="server" /><br />
  
               <asp:TextBox ID="passwordTextBox" TextMode="Password" CssClass="form-control"
-                           Style="padding-left: 10px" placeholder="Password" runat="server" />
+                           Style="padding-left: 10px" placeholder="Lozinka" runat="server" />
  
             <div class="login-btn "> <br />
                 <p align="center">
-                   <asp:Button ID="Button1" Text="Log In"  runat="server" CssClass="btn btn-login btn-default"
+                   <asp:Button ID="Button1" Text="Prijava"  runat="server" CssClass="btn btn-login btn-default"
                               OnClick="submitEventMethod"  /></p>
                        </fieldset>
                        </ContentTemplate>

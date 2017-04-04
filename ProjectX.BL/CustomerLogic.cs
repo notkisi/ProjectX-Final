@@ -25,18 +25,23 @@ namespace ProjectX.BusinessLogic
                     break;
                 case "tbAddress_":
                     cell.CssClass = "textboxadresa";
+                    tb.Attributes.Add("placeholder", "Adresa");
                     break;
                 case "tbZipCode_":
                     cell.CssClass = "textboxzip";
+                    tb.Attributes.Add("placeholder", "Postanski broj");
                     break;
                 case "tbCity_":
                     cell.CssClass = "textboxcity";
+                    tb.Attributes.Add("placeholder", "Grad");
                     break;
                 case "tbPhone_":
                     cell.CssClass = "textboxphone";
+                    tb.Attributes.Add("placeholder", "Telefon");
                     break;
                 case "tbLocal_":
                     cell.CssClass = "textboxlokal";
+                    tb.Attributes.Add("placeholder", "Lokal");
                     break;
 
                 default:
